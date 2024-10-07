@@ -1,0 +1,167 @@
+@font-face {
+    font-family: happyline;
+    src: url(./Happy\ Selfie.ttf);
+}
+
+
+
+
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/24049797-abstrato-colorido-fundo-turva-paleta-de-cores-pastel-gradiente-para-papel-de-parede-gradiente-suave-em-azul-roxo-ciano-e-rosa-vetor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+p{
+    
+    text-align: center;
+}
+.intro{
+    background-color: #b40fbd50;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000000;
+}
+
+article{
+    background-color: #f50be55b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000000;
+}
+
+
+header{
+    
+    font-family: "Cabin", sans-serif;
+    background-color: #aa32ae50;
+    font-size: 27px;
+    color: #8b0969;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1{
+    background-image: url(https://i.pinimg.com/originals/a9/d3/9e/a9d39e4b9b5d55bc5af1575c1f8456fa.gif);
+    background-size: cover;
+    -webkit-background-clip:text;
+    font-family: happyline;
+font-size: 100px;
+   
+    color: transparent;
+    margin:0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin:  0 40px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    color: #ff00e1;
+    text-decoration: none;
+    
+}
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    color: #aa32aeeb;
+    padding: 50px;
+    text-align: center;
+    
+}
+h3{
+    color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 10px rgb(221, 127, 226);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 2px solid #d706b8;
+    
+    padding: 10px;
+    text-align: center;
+    
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 215px;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #e20ed1;
+    border-radius: 15px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f53feb;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer{
+    font-family: "Sacramento", cursive;
+    font-size: 25px;
+    background-color: #333;
+    color: rgb(226, 148, 237);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
